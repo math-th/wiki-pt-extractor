@@ -6,7 +6,7 @@
 
 This project is a **simple, quick, light script to extract pages content from Wikipedia**. It was designed to extract only a clean text, excluding tables, images, references and small articles. It can be used to create big corpora from Wikipedia pages.
 
-The script will start exploring an URL (default is Wikipédia "France" page), download its content and save it to a text file, and then explore every Wikipedia links found in the page, while the desired count is not reached. The script handle a stop/restart process : you can stop the script by giving any input to your console (e.g. enter something and then hit Enter), explored and to explored URL are saved, so on the next launch in the same output directory will not download the same pages twice.
+The script will start exploring an URL (default is Wikipédia "France" page), download its content and save it to a text file, and then explore every Wikipedia links found in the page, while the desired count is not reached. The script handle a stop/restart process : you can stop the script by giving any input to your console (e.g. enter something and then hit Enter), explored and to explored URL are saved, so on the next launch in the same output directory will not download the same page twice.
 
 It was initially designed to extract French pages, but the language could be easilly changed.
 
@@ -14,9 +14,7 @@ It was initially designed to extract French pages, but the language could be eas
 
 ## USAGE
 
-This project runs on Java > 8
-
-Download a prebuilt version : [wiki-pt-extractor-1.0.0-all.jar](TODO)
+Download a prebuilt version : [wiki-pt-extractor-1.0.0-all.jar](https://github.com/math-th/wiki-pt-extractor/releases/download/1.0.0/wiki-pt-extractor-1.0.0-all.jar)
 
 ```
 java -jar wiki-pt-extractor-1.0.0-all.jar [options] <url> Wiki url where the script should begin (default is set to "https://fr.wikipedia.org/wiki/France")
@@ -32,6 +30,7 @@ java -jar wiki-pt-extractor-1.0.0-all.jar [options] <url> Wiki url where the scr
       Default: 8
 ```
 
+**This project runs on Java>8**
 
 ## PROJECT
 
